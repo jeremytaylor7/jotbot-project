@@ -1,17 +1,18 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 
 
 
 
-export default class Draft extends Component {
-  render() {
-    return (
-      <div className="draft-container">
-        <form className="draft-form">
-          <textarea className="draft-input" />
-        </form>
-      </div>
-    )
-  }
+export default function Draft(props) {
+  return (
+    <div className="draft-container">
+      <form className="draft-form">
+        <textarea onClick={() => { props.onClick() }} className="draft-input" />
+        <button className="clear-btn" value="Clear">Clear</button>
+        <button className="finalize-btn" value="Finalize">Finalize</button>
+      </form>
+    </div >
+
+  )
 }

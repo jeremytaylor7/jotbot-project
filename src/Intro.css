@@ -1,0 +1,21 @@
+.intro-class {
+  height: 120px;
+  margin-left: auto;
+  /* border: 1px solid black; */
+  margin-right: auto;
+}
+.intro-class > h2 {
+  margin-left: auto;
+  text-align: center;
+}
+
+.intro-class > button {
+  height: 20px;
+  display: block;
+  margin-left: auto;
+  width: 100px;
+  margin-right: auto;
+  text-align: center;
+
+  
+}
