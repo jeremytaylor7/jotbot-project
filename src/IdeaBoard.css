@@ -26,3 +26,16 @@
   height: 20px;
 
 }
+.word {
+  margin-left: 5px;
+  display: inline;
+  text-decoration: line-through;
+  
+
+}
+
+span {
+  width: 0;
+  
+  
+}
