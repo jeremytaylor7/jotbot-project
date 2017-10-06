@@ -1,13 +1,14 @@
-.list-item {
+.subitem {
   height: 50px;
   margin-left: auto;
   width: 50%;
   font-size: 20px;
   background-color: purple;
   margin-right: auto;
+  margin-top: 10px;
 }
 
-.list-item-title {
+.subitem-title {
   display: inline-block;
   /* font-size: 20; */
   margin-right: 20px;
@@ -15,6 +16,6 @@
   
 }
 
-.list-item-info {
+.subitem-info {
   display: inline-block;
 }

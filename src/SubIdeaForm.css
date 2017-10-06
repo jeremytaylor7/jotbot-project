@@ -1,0 +1,31 @@
+.subidea-form {
+  background-color: purple;
+  height: 100px;
+  width: 500px;
+  margin-left: auto;
+
+  margin-right: auto;
+
+}
+
+.subidea-input {
+  display: block;
+  height: 20px;
+  width: 200px;
+
+  margin-left: auto;
+  
+  margin-right: auto;
+
+  
+}
+
+.submit-idea {
+  width: 100px;
+  height: 20px;
+  margin-left: auto;
+  display: block;
+  margin-right: auto;
+  
+}
+

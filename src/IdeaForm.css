@@ -1,0 +1,30 @@
+.idea-form {
+  background-color: purple;
+  height: 100px;
+  width: 500px;
+  margin-left: auto;
+
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.idea-input {
+  display: block;
+  height: 20px;
+  width: 200px;
+  margin-left: auto;
+  
+  margin-right: auto;
+
+  
+}
+
+.submit-idea {
+  width: 100px;
+  height: 20px;
+  margin-left: auto;
+  display: block;
+  margin-right: auto;
+  
+}
+

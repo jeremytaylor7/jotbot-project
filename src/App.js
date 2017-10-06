@@ -1,11 +1,16 @@
 import React, { Component } from 'react';
 import Nav from './Nav.js'
-import Draft from './Draft.js'
 import Intro from './Intro.js'
+import IdeaBoard from './IdeaBoard.js'
 import './Nav.css'
 import './App.css'
-import './Draft.css'
 import './Intro.css'
+import './IdeaBoard.css'
+import './Buttons.css'
+import './IdeaForm.css'
+import './SubIdeaForm.css'
+import './Idea.css'
+import './List.css'
 
 
 class App extends Component {
@@ -42,8 +47,7 @@ class App extends Component {
     return (
       <div className="App">
         <Nav />
-        <Intro />
-        <Draft onClick={() => { this.strikeThrough() }} textChange={(e) => { this.textChange(e) }} text={this.state.inputList} onKeyPress={() => { this.keyPress() }} />
+        <IdeaBoard />
       </div>
     );
   }

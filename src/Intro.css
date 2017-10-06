@@ -1,13 +1,15 @@
 .intro-class {
-  height: 120px;
+  height: 200px;
   margin-left: auto;
   /* border: 1px solid black; */
   margin-right: auto;
+  font-size: 10px;
+  
 }
-.intro-class > h2 {
-  margin-left: auto;
+.intro-h2, .intro-h3 {
   text-align: center;
 }
+
 
 .intro-class > button {
   height: 20px;
